@@ -1,0 +1,21 @@
+.plans_plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}.plans_plan:hover{
+    opacity: 1;
+}
+.subcribe{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: red;  
+
+}
+.unsubcribe{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(180, 180, 180);
+}

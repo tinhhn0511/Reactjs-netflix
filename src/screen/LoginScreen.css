@@ -1,0 +1,76 @@
+.login{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/41/6a/7f/416a7fd4720a3c0dbd38c17f3ac8e0c1.jpg') ;
+    background-size: cover;
+
+}.login_logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+
+}.login_btn{
+    position: fixed;
+    right: 20px;
+    top:30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: red;
+}.login_grandient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.35);
+    background-image: linear-gradient(to top,
+    rgba(0,0,0,0.8)0,
+    rgba(0,0,0,0.0)60%,
+    rgba(0,0,0,0.8)100%);
+}
+.login_body  h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}.login_body  h3{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.login_body{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+}
+.login_input >form>input{
+    padding-top:10.5px;
+    padding-bottom: 9.5px;
+   
+    padding-left: 15px;
+    height: 30px;
+    outline-width: 0;
+    width: 40%;
+    border:none;
+    max-width: 600px;
+}
+.login_btn_start{
+    
+    padding: 16px;
+    border:none;
+    background: red;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
